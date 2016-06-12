@@ -1,0 +1,9 @@
+on init
+    chown system system /sys/class/backlight/panel/brightness
+    chmod 0666 /sys/class/backlight/panel/brightness
+    chown system radio /sys/class/lcd/panel/lcd_type
+    chown system radio /sys/class/lcd/panel/lcd_power
+
+on fs
+    insmod /rk30xxnand_ko.ko.3.0.36+
+    insmod /rk29-ipp.ko.3.0.36+

@@ -1,0 +1,2 @@
+add_lunch_combo aosp_lifetab_e10310-eng
+add_lunch_combo aosp_lifetab_e10310-userdebug
